@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Hello World'
                 sh 'python3 main.py'
-                sh 'pylint'
+                sh 'pylint main.py'
             }
         }
     }
